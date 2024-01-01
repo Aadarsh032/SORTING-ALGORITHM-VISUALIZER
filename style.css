@@ -1,0 +1,88 @@
+body
+{
+   background-color: rgb(14, 8, 97);
+}
+#heading
+{
+    margin-top: 0px;
+    color: white;
+    font-size: 15px;
+    display: flex;
+    justify-content: center;
+}
+#headingsort
+{
+    margin-top: 0px;
+    height: 8px;
+    padding-bottom: 10px;
+}
+
+.parentdiv
+{
+     display: flex;
+     box-shadow: 3px 3px 3px 3px  #FFFFFF;
+     align-items: flex-end;
+     flex-wrap: nowrap;
+     height: 400px; width: 100%;
+     border: 2px black solid;
+     background-color: #50C878;
+     justify-content:end;
+}
+.button{
+    display: flex;
+    margin-top: 20px;
+    position:inherit;
+}
+
+h1{
+    font-size: 25px;
+}
+#algorithmbox
+{
+    position: fixed;
+    color: white;
+    left: 20px;
+    top: 20%; 
+    display: flex; 
+    flex-direction: column;
+    height: 150px;
+    width:200px;
+    padding: 20px ;
+}
+#algoword
+{
+    padding-left: 9%;
+    padding-right: 9%;
+}
+.bubblesort
+{
+    margin-bottom: 25px;
+    box-shadow: 3px 3px 0px 0px  #FFFFFF;
+    background-color: rgb(14, 8, 97);
+    border-radius: 25px;
+    color: rgb(251, 85, 24);
+}
+.insertionsort
+{
+    margin-bottom: 25px;
+    box-shadow: 3px 3px 0px 0px  #FFFFFF;
+    background-color: rgb(14, 8, 97);
+    border-radius: 25px;
+    color: rgb(251, 85, 24);
+}
+.mergesort
+{
+    margin-bottom: 25px;
+    box-shadow: 3px 3px 0px 0px  #FFFFFF;
+    background-color: rgb(14, 8, 97);
+    border-radius: 25px;
+    color: rgb(251, 85, 24);
+}
+.quicksort
+{
+     box-shadow: 3px 3px 0px 0px  #FFFFFF;
+    margin-bottom: 25px;
+    background-color: rgb(14, 8, 97);
+    border-radius: 25px;
+    color: rgb(251, 85, 24);
+}
